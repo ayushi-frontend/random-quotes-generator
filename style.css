@@ -1,0 +1,49 @@
+*{
+    margin: 0;padding: 0;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/pine-trees-rock-formation-near-mountains-gray-clouds_395237-198.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quotes-generator{
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 45%;
+    height: 400px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px 40px;
+    text-align: center;
+}
+#author{
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    right: 40px;
+    background-color:black;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+.button{
+     display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    background-color:rgba(0, 0, 0, 0.301);
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid black;
+}
